@@ -1,0 +1,21 @@
+{
+  "name": "grok-bot",
+  "version": "1.0.0",
+  "description": "A funny Discord bot that roasts users like a Twitter user using Gemini AI",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "keywords": ["discord", "bot", "gemini", "ai", "funny", "roast"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@google/generative-ai": "^0.7.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
